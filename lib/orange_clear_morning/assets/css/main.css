@@ -52,12 +52,12 @@ ul.nav li{
 	font-weight: bold;
 	font-size: 0.9em;
 	border-left: 1px solid #80888a;
+	border-bottom: 3px solid white;
 	float: left;
 	margin: 0;
 	padding: 0;
 	color: #bbc;
 	margin-top: 3px;
-	margin-bottom: 3px;
 }
 ul.nav li.first{
 	border-color: white;

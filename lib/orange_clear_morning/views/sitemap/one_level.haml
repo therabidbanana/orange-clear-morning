@@ -1,0 +1,8 @@
+%ul.nav
+  %li.first
+    %a{:href => route_to(model)} Home
+  - i = 0; children = model.children.all(:show_in_nav => true)
+  - for item in children
+    - i = i + 1
+    %li{:class => ((i < children.size) ? "" : "last")}
+      %a{:href => route_to(item)}= orange[:sitemap].link_text_for(item)

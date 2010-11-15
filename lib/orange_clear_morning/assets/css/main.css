@@ -1,0 +1,145 @@
+body{
+	font-family: "Lucida Grande", "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	color: #aaa;
+}
+
+h1, h2, h3{
+	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Geneva, sans-serif;
+	font-weight: 300;
+	color: #999;
+}
+
+a{
+	color: #fbb903;
+	font-weight: bolder;
+}
+
+
+header.head hgroup .logo{
+	float: left;
+	width: 30%;
+	min-height: 160px;
+	background-repeat: no-repeat;
+}
+header.head hgroup .tagline{
+	float: right;
+	width: 55%;
+	margin: 1.4em;
+	background: #fffbef;
+	padding: 1em;
+}
+header.head hgroup .tagline strong{
+	font-size: 1.5em;
+	color: #fdb900;
+	font-weight: 300;
+}
+
+header.head hgroup{
+	display: block;
+	overflow: auto;
+	margin: 0.5em 0;
+}
+
+
+ul.nav{
+	overflow: auto;
+	border-top: 1px solid #fab800;
+	border-bottom: 1px solid #c6ccd0;
+}
+
+ul.nav li{
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	border-left: 1px solid #80888a;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: #bbc;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+ul.nav li.first{
+	border-color: white;
+}
+ul.nav li.last{
+	border-right: 1px solid #80888a;
+}
+ul.nav li:hover + li{
+	border-left: 1px solid #fff;
+}
+
+ul.nav li:hover{
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	border-left: 1px solid #fab800;
+	background: #fab800;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 3px solid #fab800;
+	border-bottom: 3px solid #fab800;
+	border-color: #fab800;
+}
+
+ul.nav li:hover a, ul.nav li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.nav li a{
+	display: block;
+	margin: 0;
+	padding: 0.3em 2.5em 2.5em 1em;
+	color: #b6c6c9;
+	text-decoration: none;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.content.narrow{
+	width: 420px;
+	padding-right: 40px;
+	border-right: 1px solid #b6c6c9;
+}
+
+.sidebar{
+	float: right;
+	width: 300px;
+}
+
+
+.clearfix{
+	height: 1px;
+	clear: both;
+	display: block;
+}
+
+
+.body h1{
+	margin-bottom: 0.1em;
+	color: #80888b;
+}
+
+.body p{
+	margin: 0 0 1em;
+}
+
+.highlighted{
+	background: #fffbef;
+	padding: 1em;
+	margin: 1em 0;
+	clear:both;
+}
+
+footer.footer{
+	border-top: 1px solid #b3bcc1;
+	font-size: 0.8em;
+	color: #888;
+	display: block;
+	padding: 1em 0em 2.5em;
+}

@@ -1,0 +1,8 @@
+%header.head
+  %hgroup
+    .logo{:style => packet['site'].blank? ? "" : "background-image: url(#{OrangeAsset.get(packet['site'].logo).file_path})"}
+      %h1{:style => packet['site'].blank? ? "" : (packet['site'].logo ? "font-size : 1px; color: white" : "")}= orange[:sparkles].site_name(packet, orange.options[:site_name])
+    %h2.tagline
+      = packet['site'].blank? ? 'Site Tagline Here' : packet['site'].tagline
+  %nav
+    = orange[:sitemap].one_level(packet)
